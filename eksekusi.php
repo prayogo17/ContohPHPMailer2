@@ -21,7 +21,7 @@ foreach ($result as $key => $value) {
     $mail->Port 		= 465;
     $mail->SMTPSecure 	= "ssl";
     $mail->Username 	= "cs@nugrohoprayogo.com";   //username SMTP
-    $mail->Password 	= "surabaya123456";   			  //password SMTP
+    $mail->Password 	= "xxxxxxxxx";   			  //password SMTP
     $mail->From    		= "cs@nugrohoprayogo.com";   //email pengirim
     $mail->FromName 	= "Nugroho";      			  //nama  pengirim
     $mail->AddAddress($value['email'], $value['nama']);//email dan nama penerima
